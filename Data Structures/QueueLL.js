@@ -30,6 +30,8 @@ class Queue {
     }
 }
 
+module.exports = Queue;
+
 let queue = new Queue();
 console.log(queue.isEmpty());
 
